@@ -29,9 +29,14 @@
 #include "calibration.h"
 #include "mouse.h"
 #include "config.h"
+#using <System.dll>
 
 #pragma comment(lib, "user32.lib")
 using namespace std;
+using namespace System;
+using namespace System::Net;
+using namespace System::IO;
+using namespace System::Windows::Forms;
 /** Global Variables */
 GazePoint cursorPos;
 GazePoint prevCursorPos;
@@ -46,8 +51,7 @@ cv::Mat skinCrCbHist = cv::Mat::zeros(cv::Size(256, 256), CV_8UC1);
 CvCapture* capture;
 cv::Mat frame;
 
-
-bool debugMode = FALSE, isCapturing = TRUE, isCalibrating = TRUE;
+bool debugMode = FALSE, isCapturing = FALSE, isCalibrating = FALSE;
 /**
 * @function main
 */
@@ -59,6 +63,28 @@ void init(int count, char** params) {
 		if (strcmp(params[i], "calibrate") == 0) isCalibrating = TRUE;
 		if (strcmp(params[i], "capture") == 0) isCapturing = TRUE;
 	}
+	
+	MessageBox::Show("fds");
+	String ^str = Environment::GetEnvironmentVariable("cascadePath", EnvironmentVariableTarget::User);
+	if (File::Exists(str)) {
+		int length = str->Length;
+		face_cascade_name = "";
+		for each (char c in str)
+			face_cascade_name += c;
+	}
+
+
+}
+
+int main( int argc, char** argv ) {
+	//return 0;
+	//int f; //arbitrary input for debugging and attaching to process
+	//cin >> f;
+	init(argc, argv);
+	char* path = "../res/cal.config";
+	// Load the cascades
+	if (!face_cascade.load(face_cascade_name)){ 
+		printf("--(!)Error loading face cascade, please change face_cascade_name in source code.\n"); return -1; };
 
 	/*the following were commented out by Thomas Fallwell 02/14/15*/
 
@@ -81,17 +107,6 @@ void init(int count, char** params) {
 	ellipse(skinCrCbHist, cv::Point(113, 155.6), cv::Size(23.4, 15.2),
 		43.0, 0.0, 360.0, cv::Scalar(255, 255, 255), -1);
 
-}
-
-int main( int argc, char** argv ) {
-
-	//int f; //arbitrary input for debugging and attaching to process
-	//cin >> f;
-	init(argc, argv);
-	char* path = "../res/cal.config";
-	// Load the cascades
-	if (!face_cascade.load(face_cascade_name)){ 
-		printf("--(!)Error loading face cascade, please change face_cascade_name in source code.\n"); return -1; };
 	// Read the video stream
 	capture = cvCaptureFromCAM(0);
 	if (capture) { //if can read from webcam

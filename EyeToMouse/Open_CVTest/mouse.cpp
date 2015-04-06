@@ -14,7 +14,7 @@
 #include <Windows.h>
 #include <WinDef.h>
 #include <process.h>
-#include <thread>
+//#include <thread>
 
 using namespace std;
 extern bool threadStarted = 0;
@@ -173,32 +173,32 @@ unsigned int __stdcall accelerate(void* data) {
 }
 //this method slowly moves the mouse for a set time interval
 //(still needs work, can cause divide by 0)
-void Mouse::sleepcp(int milliseconds, int x, int y) {
-
-	clock_t time_end;
-	time_end = clock() + milliseconds * CLOCKS_PER_SEC / 1000;
-
-	int xDistance = abs(x - cursorPos.X);
-	int yDistance = abs(y - cursorPos.Y);
-	int bigger = x > y ? x : y;
-	int smaller = x > y ? x : y;
-	int ratio = smaller / bigger;
-
-	while (clock() < time_end) {
-		if (x < cursorPos.X) {
-			x++;
-		}
-		else {
-			x--;
-		}
-
-		if (y < cursorPos.Y) {
-			y++;
-		}
-		else {
-			y--;
-		}
-		SetCursorPos(x, y);
-	}
-
-}
+//void Mouse::sleepcp(int milliseconds, int x, int y) {
+//
+//	clock_t time_end;
+//	time_end = clock() + milliseconds * CLOCKS_PER_SEC / 1000;
+//
+//	int xDistance = abs(x - cursorPos.X);
+//	int yDistance = abs(y - cursorPos.Y);
+//	int bigger = x > y ? x : y;
+//	int smaller = x > y ? x : y;
+//	int ratio = smaller / bigger;
+//
+//	while (clock() < time_end) {
+//		if (x < cursorPos.X) {
+//			x++;
+//		}
+//		else {
+//			x--;
+//		}
+//
+//		if (y < cursorPos.Y) {
+//			y++;
+//		}
+//		else {
+//			y--;
+//		}
+//		SetCursorPos(x, y);
+//	}
+//
+//}

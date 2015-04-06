@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
-Debug|Win32|C:\Users\Andrew James Heid\Documents\GitHub\eye_tracking-master\Eye_Tracking\EyeToMouse\|
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=true:VCToolArchitecture=Native32Bit
+Debug|Win32|C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\|
