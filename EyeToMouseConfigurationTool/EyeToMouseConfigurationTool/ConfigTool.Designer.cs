@@ -26,6 +26,7 @@
             this.btnCalibrate = new System.Windows.Forms.Button();
             this.btnCapture = new System.Windows.Forms.Button();
             this.chkBxDebug = new System.Windows.Forms.CheckBox();
+            this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalibrate
@@ -51,7 +52,7 @@
             // chkBxDebug
             // 
             this.chkBxDebug.AutoSize = true;
-            this.chkBxDebug.Location = new System.Drawing.Point(87, 159);
+            this.chkBxDebug.Location = new System.Drawing.Point(87, 197);
             this.chkBxDebug.Name = "chkBxDebug";
             this.chkBxDebug.Size = new System.Drawing.Size(111, 21);
             this.chkBxDebug.TabIndex = 2;
@@ -59,11 +60,22 @@
             this.chkBxDebug.UseVisualStyleBackColor = true;
             this.chkBxDebug.CheckStateChanged += new System.EventHandler(this.chkBxDebug_CheckStateChanged);
             // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(87, 144);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(88, 35);
+            this.btnStop.TabIndex = 3;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // frmConfigTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 255);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.chkBxDebug);
             this.Controls.Add(this.btnCapture);
             this.Controls.Add(this.btnCalibrate);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.Button btnCalibrate;
         private System.Windows.Forms.Button btnCapture;
         private System.Windows.Forms.CheckBox chkBxDebug;
+        private System.Windows.Forms.Button btnStop;
     }
 }
 

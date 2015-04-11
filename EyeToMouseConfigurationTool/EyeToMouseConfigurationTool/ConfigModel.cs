@@ -29,8 +29,8 @@ namespace EyeToMouseConfigurationTool {
         public ConfigModel(){
 
             string dir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
-            string value = dir + "\\EyeToMouse\\res\\haarcascade_frontalface_alt.xml";
-            Environment.SetEnvironmentVariable("cascadePath", value, EnvironmentVariableTarget.User);
+            //string value = dir + "\\EyeToMouse\\res\\haarcascade_frontalface_alt.xml";
+            //Environment.SetEnvironmentVariable("cascadePath", value, EnvironmentVariableTarget.User);
             _programPath = dir + "\\EyeToMouse\\Debug\\EyeToMouse.exe";
 
             myProcess = new Process();
@@ -48,17 +48,25 @@ namespace EyeToMouseConfigurationTool {
             startProcess(_capture);
         }
 
-        private void myProcess_Exited(object sender, System.EventArgs e) {
-
-            eventHandled = false;
-            MessageBox.Show(String.Format("{0}  {1}", myProcess.ExitTime, myProcess.ExitCode));
+        internal void stopCapture() {
+            if (eventHandled) {
+                myProcess.Kill();
+                eventHandled = false;
+            }
         }
 
-        internal void startProcess(string arg) {
+        //private void myProcess_Exited(object sender, System.EventArgs e) {
 
+        //    eventHandled = false;
+        //    MessageBox.Show(String.Format("{0}  {1}", myProcess.ExitTime, myProcess.ExitCode));
+        //}
+
+        internal void startProcess(string arg) {
+            //kill older processes
             if (eventHandled)
                 myProcess.Kill();
 
+            arg += " configTool";
             eventHandled = true;
             myProcess.StartInfo.FileName = @_programPath;
             myProcess.StartInfo.Arguments = _debugMode == true ? @arg + ' ' + _debug : @arg;
@@ -71,17 +79,8 @@ namespace EyeToMouseConfigurationTool {
             //myProcess.StartInfo.RedirectStandardError = true;
             //process.StartInfo.UseShellExecute = false;
             try {
-                myProcess.Exited += new EventHandler(myProcess_Exited);
+                //myProcess.Exited += new EventHandler(myProcess_Exited);
                 myProcess.Start();
-
-                //myProcess.WaitForExit();
-                try {
-                    //myProcess.Close();
-                    //myProcess.Kill();
-                }
-                catch (Exception e) {
-
-                }
             }
             catch (Exception e) {
 

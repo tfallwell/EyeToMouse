@@ -51,7 +51,10 @@ cv::Mat skinCrCbHist = cv::Mat::zeros(cv::Size(256, 256), CV_8UC1);
 CvCapture* capture;
 cv::Mat frame;
 
-bool debugMode = FALSE, isCapturing = FALSE, isCalibrating = FALSE;
+bool debugMode = false, 
+	isCapturing = false, 
+	isCalibrating = false,
+	configTool = false;
 /**
 * @function main
 */
@@ -59,19 +62,21 @@ void init(int count, char** params) {
 
 	//get all parameters
 	for (int i = 0; i < count; i++) {
-		if (strcmp(params[i], "debug") == 0) debugMode = TRUE;
-		if (strcmp(params[i], "calibrate") == 0) isCalibrating = TRUE;
-		if (strcmp(params[i], "capture") == 0) isCapturing = TRUE;
+		if (strcmp(params[i], "debug") == 0) debugMode = true;
+		if (strcmp(params[i], "calibrate") == 0) isCalibrating = true;
+		if (strcmp(params[i], "capture") == 0) isCapturing = true;
+		if (strcmp(params[i], "configTool") == 0) configTool = true;
+		//cout << params[i];
 	}
 	
-	MessageBox::Show("fds");
-	String ^str = Environment::GetEnvironmentVariable("cascadePath", EnvironmentVariableTarget::User);
+	//MessageBox::Show("fds");
+	/*String ^str = Environment::GetEnvironmentVariable("cascadePath", EnvironmentVariableTarget::User);
 	if (File::Exists(str)) {
 		int length = str->Length;
 		face_cascade_name = "";
 		for each (char c in str)
 			face_cascade_name += c;
-	}
+	}*/
 
 
 }
@@ -81,7 +86,15 @@ int main( int argc, char** argv ) {
 	//int f; //arbitrary input for debugging and attaching to process
 	//cin >> f;
 	init(argc, argv);
-	char* path = "../res/cal.config";
+	//if called by config tool
+	char* path;
+	if (configTool) {
+		path = "../../../../EyeToMouse/res/cal.config";
+		face_cascade_name = "../../../../EyeToMouse/res/haarcascade_frontalface_alt.xml";
+	}
+	else {
+		path = "../res/cal.config";
+	}
 	// Load the cascades
 	if (!face_cascade.load(face_cascade_name)){ 
 		printf("--(!)Error loading face cascade, please change face_cascade_name in source code.\n"); return -1; };
@@ -232,10 +245,10 @@ int findEyes(cv::Mat frame_gray, cv::Rect face, char* arg) {
 	//printf("max X = %d, max Y = %d \n", gaze.MAX_X, gaze.MAX_Y);
 	//printf("min X = %d, min Y = %d \n", gaze.MIN_X, gaze.MIN_Y);
 	//the following logic is only true during is for calibration
-	if (arg == "left" || arg == "right") {
+	if ( arg != NULL && (strcmp(arg, "left") == 0 || strcmp(arg, "right") == 0) ) {
 		return (eye_x);
 	}
-	else if (arg == "top" || arg == "bottom") {
+	else if (arg != NULL && (strcmp(arg, "top") == 0 || strcmp(arg, "bottom") == 0) ) {
 		return eye_y;
 	}
 	else {

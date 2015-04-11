@@ -10,46 +10,1181 @@ Platform assembly: C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\
 Loading C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.041 seconds
+- Completed reload, in  0.108 seconds
 desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\Dead Eye Z_Data\Managed\System.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-UnloadTime: 5.429519 ms
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1608)
+
+UnloadTime: 5.080749 ms
 System memory in use before: 36.6 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 34.1 MB.
+System memory in use after: 34.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 388.
-Total: 2.060039 ms (FindLiveObjects: 0.030098 ms CreateObjectMapping: 0.015514 ms MarkObjects: 0.259715 ms  DeleteObjects: 0.574663 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 430.
+Total: 2.159023 ms (FindLiveObjects: 0.033822 ms CreateObjectMapping: 0.015514 ms MarkObjects: 0.287952 ms  DeleteObjects: 0.596384 ms)
 
 WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
-UnloadTime: 2.746099 ms
-System memory in use before: 36.4 MB.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 16.5 MB.
-
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 256.
-Total: 6.932892 ms (FindLiveObjects: 0.023582 ms CreateObjectMapping: 0.016445 ms MarkObjects: 2.779300 ms  DeleteObjects: 2.846324 ms)
-
-Scene CalibrationScene is loaded
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Reporter:OnLevelWasLoaded() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Reporter\Reporter.cs:1994)
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass '' shader state not supported
+UnloadTime: 1.364051 ms
+HDR RenderTexture format is not supported on this platform. This camera will render without HDR buffers.
  
-(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Reporter/Reporter.cs Line: 1994)
+(Filename: C:/buildslave/unity/build/Runtime/Camera/Camera.cpp Line: 2486)
+
+System memory in use before: 84.9 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 66.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5330.
+Total: 2.077726 ms (FindLiveObjects: 0.147389 ms CreateObjectMapping: 0.019858 ms MarkObjects: 0.287331 ms  DeleteObjects: 1.133813 ms)
 
 C:\Users\thomas\Documents\GitHub\EyeToMouse\EyeToMouse\Debug\EyeToMouse.exe
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+10 10
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-LaunchCalibration:Launch() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Calibration\LaunchCalibration.cs:22)
-LaunchCalibration:Start() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Calibration\LaunchCalibration.cs:12)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
  
-(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Calibration/LaunchCalibration.cs Line: 22)
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+10 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+1010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+Ammo:useAmmo() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:29)
+FireCS:fire() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\FireCS.cs:56)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:46)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+9 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+910
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+8 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+810
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+7 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+710
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+6 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+610
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+5 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+510
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+4 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+410
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+3 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+310
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+2 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+210
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+1 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+110
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+0 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
+
+0 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:51)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 51)
+
+010
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Ammo:SetCursor() (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\Ammo.cs:52)
+PlayerHealth:TakeDamage(Int32) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\PlayerHealth.cs:40)
+DieBitchDie:OnTriggerEnter(Collider) (at C:\Users\Dillon\Documents\DatZombieGame9000\Assets\Scenes\MainGame\Scripts\DieBitchDie.cs:43)
+ 
+(Filename: C:/Users/Dillon/Documents/DatZombieGame9000/Assets/Scenes/MainGame/Scripts/Ammo.cs Line: 52)
 

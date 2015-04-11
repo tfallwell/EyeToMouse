@@ -69,16 +69,16 @@ void Calibration::sleepcp(int milliseconds, char* direction) {
 	}
 	if (i == 0) i = 1; //don't divide by 0
 	//average where each min and max value are
-	if (direction == "left") {
+	if (strcmp(direction, "left") == 0) {
 		::gaze.MIN_X = sum / i;
 	}
-	else if (direction == "top") {
+	else if (strcmp(direction,"top") == 0) {
 		::gaze.MAX_Y = sum / i;
 	}
-	else if (direction == "right") {
+	else if (strcmp(direction, "right") == 0) {
 		::gaze.MAX_X = sum / i;
 	}
-	else if (direction == "bottom") {
+	else if (strcmp(direction, "bottom") == 0) {
 		::gaze.MIN_Y = sum / i;
 	}
 }

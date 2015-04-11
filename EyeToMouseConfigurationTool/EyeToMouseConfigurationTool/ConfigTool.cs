@@ -37,6 +37,10 @@ namespace EyeToMouseConfigurationTool {
             _model.kill();
         }
 
+        private void btnStop_Click(object sender, EventArgs e) {
+
+        }
+
         
     }
 }
