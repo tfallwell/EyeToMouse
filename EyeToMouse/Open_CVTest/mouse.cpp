@@ -2,14 +2,14 @@
 *this class is for mapping eyes to mouse
 */
 #include <opencv2\highgui\highgui.hpp>
-
+#include "globals.h"
 #include "mouse.h"
-
+#include <time.h>
 #include <iostream>
 #include <queue>
 #include <stdio.h>
 #include <math.h>
-#include "globals.h"
+
 
 #include <Windows.h>
 #include <WinDef.h>
@@ -19,7 +19,7 @@
 using namespace std;
 extern bool threadStarted = 0;
 CursorSpeed cursor_speed;
-HANDLE mouseThread;
+int threadCount = 0;
 
 Mouse::Mouse() {
 
@@ -109,8 +109,14 @@ void Mouse::directMapMouse(int x, int y) {
 	int yDistance = abs(prevCursorPos.Y - cursorPos.Y);
 	//set speed (at which the mouse moves) to new points
 	//(velocity is proportional to distance)
-	::cursor_speed.X = xDistance / (double) width;
-	::cursor_speed.Y = yDistance / (double) height;
+	//::cursor_speed.X = xDistance / (double) width;
+	//::cursor_speed.Y = yDistance / (double) height;
+	::cursor_speed.X = xDistance / (double)10;
+	::cursor_speed.Y = yDistance / (double)10;
+	if (::cursor_speed.X > 50)
+		::cursor_speed.X = 50;
+	if (::cursor_speed.Y > 50)
+		::cursor_speed.Y = 50;
 	//if only one gaze point (only happs on first iteration)
 	if (prevCursorPos.X == -1) { 
 		SetCursorPos(mouseX, mouseY);
@@ -121,84 +127,147 @@ void Mouse::directMapMouse(int x, int y) {
 
 		if (::threadStarted == FALSE) { //if no other thread has been started
 			::threadStarted == TRUE;
+			threadCount++;
 			//std::thread mouseThread(accelerate, width, height);
 			//start thread
 			HANDLE hndl = (HANDLE)_beginthreadex(0, 0, &accelerate, 0, 0, 0);
-			
+
 			//WaitForSingleObject(hndl, INFINITE);
 		}
+		else
+			::threadStarted == FALSE;
 	}
 }
 //separate thread for moving mouse towards current gaze point
 unsigned int __stdcall accelerate(void* data) {
 
-	int x = prevCursorPos.X;
-	int	y = prevCursorPos.Y;
+	if (threadCount > 1)
+		return threadCount--;
+
+	double x = prevCursorPos.X;
+	double	y = prevCursorPos.Y;
 	bool flag = false;
+	Mouse m;
 	while (1) {
 		//wait for 100 ml seconds between mouse movements
 		Sleep(100);
-		//Mouse m; //in progress
+		//in progress
 		//m.sleepcp(100, x, y);
+
 		if (x < cursorPos.X) {
-			//x += ::cursor_speed.X;			
-			x += (cursorPos.X - x) * ::cursor_speed.X;
+			x+= ::cursor_speed.X;
+			//x += (cursorPos.X - x) * ::cursor_speed.X;
 			if (x >= cursorPos.X) flag = true;
 		}
 		else {
-			//x -= ::cursor_speed.X;
-			x -= abs(cursorPos.X - x) * ::cursor_speed.X;
+			x -= ::cursor_speed.X;
+			//x -= abs(cursorPos.X - x) * ::cursor_speed.X;
 			if (x <= cursorPos.X) flag = true;
 		}
 
 		if (y < cursorPos.Y) {
-			//y += ::cursor_speed.Y;			
-			y += (cursorPos.Y - y) * ::cursor_speed.Y;
+			y += ::cursor_speed.Y;
+			//y += (cursorPos.Y - y) * ::cursor_speed.Y;
 			if (y >= cursorPos.Y) flag = true;
 		}
 		else {
-			//y -= ::cursor_speed.flag = true		
-			y -= abs(cursorPos.Y - y) * ::cursor_speed.Y;
+			y-= ::cursor_speed.Y;
+			//y -= abs(cursorPos.Y - y) * ::cursor_speed.Y;
 			if (y <= cursorPos.Y) flag = true;
 		}
 
 		//for debuging
-		SetCursorPos(x, y);
+		SetCursorPos((int)x, (int)y);
 		int c = cv::waitKey(10);
 		if ((char)c == 'c') { break; }
 		if (flag) break;
 	}
 	//set threadStarted back to FALSE on exit
+	threadCount--;
 	return ::threadStarted = FALSE;
 }
+//unsigned int __stdcall accelerate(void* data) {
+//
+//	if (threadCount > 1)
+//		return threadCount--;
+//
+//	int x = prevCursorPos.X;
+//	int	y = prevCursorPos.Y;
+//	bool flag = false;
+//	while (1) {
+//		//wait for 100 ml seconds between mouse movements
+//		//Sleep(200);
+//		//Mouse m; //in progress
+//		//m.sleepcp(300, x, y);
+//		if (x < cursorPos.X) {
+//			//x += ::cursor_speed.X;			
+//			x += (cursorPos.X - x) * ::cursor_speed.X;
+//			if (x >= cursorPos.X) flag = true;
+//		}
+//		else {
+//			//x -= ::cursor_speed.X;
+//			x -= abs(cursorPos.X - x) * ::cursor_speed.X;
+//			if (x <= cursorPos.X) flag = true;
+//		}
+//
+//		if (y > cursorPos.Y) {
+//			//y += ::cursor_speed.Y;			
+//			y += (cursorPos.Y - y) * ::cursor_speed.Y;
+//			if (y >= cursorPos.Y) flag = true;
+//		}
+//		else {
+//			//y -= ::cursor_speed.flag = true		
+//			y -= abs(cursorPos.Y - y) * ::cursor_speed.Y;
+//			if (y <= cursorPos.Y) flag = true;
+//		}
+//
+//		//for debuging
+//		SetCursorPos(x, y);
+//		int c = cv::waitKey(10);
+//		if ((char)c == 'c') { break; }
+//		if (flag) break;
+//	}
+//	//set threadStarted back to FALSE on exit
+//	threadCount--;
+//	return ::threadStarted = FALSE;
+//}
 //this method slowly moves the mouse for a set time interval
 //(still needs work, can cause divide by 0)
-//void Mouse::sleepcp(int milliseconds, int x, int y) {
-//
-//	clock_t time_end;
-//	time_end = clock() + milliseconds * CLOCKS_PER_SEC / 1000;
-//
-//	int xDistance = abs(x - cursorPos.X);
-//	int yDistance = abs(y - cursorPos.Y);
-//	int bigger = x > y ? x : y;
-//	int smaller = x > y ? x : y;
-//	int ratio = smaller / bigger;
-//
-//	while (clock() < time_end) {
-//		if (x < cursorPos.X) {
-//			x++;
-//		}
-//		else {
-//			x--;
-//		}
-//
-//		if (y < cursorPos.Y) {
-//			y++;
-//		}
-//		else {
-//			y--;
-//		}
-//		SetCursorPos(x, y);
-//	}
-//
-//}
+GazePoint* Mouse::sleepcp(int milliseconds, int x, int y) {
+
+	clock_t time_end;
+	int waitTime = milliseconds;
+	time_end = clock() + milliseconds * CLOCKS_PER_SEC / 1000;
+	int xT1 = x + ::cursor_speed.X;
+	int yT1 = x + ::cursor_speed.Y;
+	int xSpeedWait, ySpeedWait;
+	int T0 = time_end, T1 = time_end-1;
+	int freq;
+
+	while (clock() < time_end && x < xT1 && y < yT1) {
+		T0 = clock();
+		if ((T0 - T1) > 0)
+			freq = time_end / (T0 - T1);
+		else
+			freq = time_end;
+		xSpeedWait = ::cursor_speed.X / freq;
+		ySpeedWait = ::cursor_speed.Y / freq;
+
+		if (x < cursorPos.X)
+			x += xSpeedWait;
+		else 
+			x -= xSpeedWait;
+
+		if (y > cursorPos.Y) 
+			y += ySpeedWait;
+		else 
+			y -= ySpeedWait;
+		Sleep(1);
+		SetCursorPos(x, y);
+		T1 = clock();
+	}
+	GazePoint *p = new GazePoint;
+	p->X = x;
+	p->Y = y;
+	return p;
+}

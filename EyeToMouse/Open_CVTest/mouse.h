@@ -10,7 +10,7 @@ public:
 	void analogMouse(int, int);
 	void directMapMouse(int, int);
 	void checkCalibration(int, int);
-	void Mouse::sleepcp(int, int, int);
+	GazePoint* sleepcp(int, int, int);
 };
 
 extern bool threadStarted;
